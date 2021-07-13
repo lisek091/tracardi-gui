@@ -11,7 +11,7 @@ const useStyles = makeStyles((theme) => ({
     root: {
         width: 480,
         '& > * + *': {
-            marginTop: theme.spacing(3),
+            marginTop: 3,
         },
     },
 }));
