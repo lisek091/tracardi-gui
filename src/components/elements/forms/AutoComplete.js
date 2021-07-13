@@ -1,6 +1,6 @@
 import React from 'react';
 import TextField from '@material-ui/core/TextField';
-import Autocomplete from '@material-ui/lab/Autocomplete';
+import Autocomplete from '@material-ui/core/Autocomplete';
 import CircularProgress from '@material-ui/core/CircularProgress';
 import {request} from "../../../remote_api/uql_api_endpoint";
 import {connect} from "react-redux";

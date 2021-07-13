@@ -1,4 +1,4 @@
-import {makeStyles} from "@material-ui/core/styles";
+import makeStyles from "@material-ui/styles/makeStyles";
 import InputLabel from "@material-ui/core/InputLabel";
 import FormControl from "@material-ui/core/FormControl";
 import React from "react";

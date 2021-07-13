@@ -10,7 +10,6 @@ import Grid from '@material-ui/core/Grid';
 import Box from '@material-ui/core/Box';
 import LockOutlinedIcon from '@material-ui/icons/LockOutlined';
 import Typography from '@material-ui/core/Typography';
-import {makeStyles, ThemeProvider} from '@material-ui/core/styles';
 import Container from '@material-ui/core/Container';
 import {setRoles, setToken} from "./login";
 import {loginUser} from "../../remote_api/user";
@@ -18,6 +17,8 @@ import {signInTheme} from "../../themes";
 import {showAlert} from "../../redux/reducers/alertSlice";
 import {connect} from "react-redux";
 import urlPrefix from "../../misc/UrlPrefix";
+import makeStyles from "@material-ui/styles/makeStyles";
+import ThemeProvider from "@material-ui/core/styles/ThemeProvider";
 
 function Copyright() {
     return (

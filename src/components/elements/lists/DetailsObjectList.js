@@ -4,7 +4,7 @@ import "./ObjectList.css";
 import Drawer from "@material-ui/core/Drawer";
 import RightPaperHeader from "../RightPaperHeader";
 import ObjectList from "./ObjectList";
-import makeStyles from "@material-ui/core/styles/makeStyles";
+import makeStyles from "@material-ui/styles/makeStyles";
 
 function DetailsObjectList({
                                filterFields,

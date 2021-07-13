@@ -7,8 +7,8 @@ import store from './redux/store'
 import {Provider} from "react-redux";
 import App from "./components/App";
 import {mainTheme} from "./themes";
-import {ThemeProvider} from "@material-ui/core/styles";
 import {ConfirmProvider} from "material-ui-confirm";
+import ThemeProvider from "@material-ui/core/styles/ThemeProvider";
 
 ReactDOM.render(
     <React.StrictMode>

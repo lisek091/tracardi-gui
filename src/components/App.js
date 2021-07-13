@@ -5,7 +5,7 @@ import {
     Route
 } from "react-router-dom";
 import Snackbar from '@material-ui/core/Snackbar';
-import MuiAlert from '@material-ui/lab/Alert';
+import MuiAlert from '@material-ui/core/Alert';
 import AppBox from "./AppBox";
 import {connect, useDispatch} from "react-redux";
 import {hideAlert} from "../redux/reducers/alertSlice";
@@ -15,7 +15,7 @@ import SocialSplash from "./elements/misc/SocialSplash";
 import PrivateRoute from "./authentication/PrivateRoute";
 import "./App.css";
 import urlPrefix from "../misc/UrlPrefix";
-import AlertTitle from "@material-ui/lab/AlertTitle";
+import AlertTitle from "@material-ui/core/AlertTitle";
 
 function Alert(props) {
     return <MuiAlert elevation={6} variant="filled" {...props} />;

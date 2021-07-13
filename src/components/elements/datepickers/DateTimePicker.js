@@ -2,12 +2,12 @@ import React, {useState} from "react";
 import Tabs, {TabCase} from "../tabs/Tabs";
 import "./DateTimePicker.css";
 import Popover from "@material-ui/core/Popover";
-import {makeStyles} from "@material-ui/core";
 import Button from "../forms/Button";
 import CalendarPicker from "./CalendarPicker";
 import RelativePicker from "./RelativePicker";
 import {IoCalendarOutline} from "@react-icons/all-files/io5/IoCalendarOutline";
 import NowDateTime from "./NowDateTime";
+import makeStyles from "@material-ui/styles/makeStyles";
 
 export default function DataTimePicker({type, datetime, onDatetimeSelect}) {
 

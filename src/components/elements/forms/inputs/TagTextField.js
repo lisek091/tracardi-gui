@@ -1,7 +1,7 @@
 import React from 'react';
 import Chip from '@material-ui/core/Chip';
-import Autocomplete from '@material-ui/lab/Autocomplete';
-import {makeStyles} from '@material-ui/core/styles';
+import Autocomplete from '@material-ui/core/Autocomplete';
+import makeStyles from "@material-ui/styles/makeStyles";
 import TextField from '@material-ui/core/TextField';
 import {request} from "../../../../remote_api/uql_api_endpoint";
 import {v4 as uuid4} from 'uuid';

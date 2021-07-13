@@ -1,6 +1,6 @@
 import React from "react";
 import TextField from "@material-ui/core/TextField";
-import {makeStyles} from "@material-ui/core/styles";
+import makeStyles from "@material-ui/styles/makeStyles";
 
 export default function Input({onEnterPressed, onChange, label, initValue, error, variant}) {
     const useStyles = makeStyles(() => (
