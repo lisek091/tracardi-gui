@@ -2,7 +2,7 @@ import React from "react";
 import "./DataAnalytics.css";
 import DataAnalytics from "./DataAnalytics";
 import ProfileDetails from "../elements/details/ProfileDetails";
-
+import FlowNodeIconSelector from "../flow/FlowNodeIconSelector";
 export default function ProfilesAnalytics() {
 
 
@@ -32,7 +32,8 @@ export default function ProfilesAnalytics() {
 
     const displayDetails = (data) => <ProfileDetails data={data}/>
 
-    return <DataAnalytics
+    return <div>
+        <DataAnalytics
         type="profile"
         label="List of profiles"
         enableFiltering={true}
@@ -45,6 +46,9 @@ export default function ProfilesAnalytics() {
         onLoadDetails={onLoadDetails}
         displayDetails={displayDetails}
         detailsDrawerWidth={1200}
-    />
+        />
+        <FlowNodeIconSelector/>
+        </div>
+        
 
 }
